@@ -39,10 +39,6 @@ def move_to_done(request,id):
 
 def user_login(request):
     if request.method == "POST":
-
-
-
-        
         
         username = request.POST["uname"]
         password = request.POST["psw"]
